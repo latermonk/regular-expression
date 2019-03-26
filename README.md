@@ -20,3 +20,10 @@ find /root  -exec ls -l {} \;
 ls |grep -v pem | xargs -i rm {}
 
 ```
+
+
+# 批量创建文件
+```
+mkdir -p  /opt/k8s/{bin,abc,add}
+
+```
